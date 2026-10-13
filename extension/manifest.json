@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "EchoPersona",
+    "version": "0.1.0",
+    "description": "Gmail autocomplete suggestions in your own writing style.",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://mail.google.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}
