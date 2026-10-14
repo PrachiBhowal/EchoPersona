@@ -9,7 +9,9 @@
     "auth": "node src/auth.js",
     "whoami": "node src/whoami.js",
     "list-sent": "node src/listSent.js",
-    "get-message": "node src/getMessage.js"
+    "get-message": "node src/getMessage.js",
+    "fetch-sent": "node src/fetchSent.js",
+    "stats": "node src/stats.js"
   },
   "dependencies": {
     "dotenv": "^18.0.7",
