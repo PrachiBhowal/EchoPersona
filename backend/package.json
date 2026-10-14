@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "node --watch src/index.js",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "auth": "node src/auth.js",
+    "whoami": "node src/whoami.js"
   },
   "dependencies": {
     "dotenv": "^18.0.7",
