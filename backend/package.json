@@ -7,7 +7,9 @@
     "dev": "node --watch src/index.js",
     "start": "node src/index.js",
     "auth": "node src/auth.js",
-    "whoami": "node src/whoami.js"
+    "whoami": "node src/whoami.js",
+    "list-sent": "node src/listSent.js",
+    "get-message": "node src/getMessage.js"
   },
   "dependencies": {
     "dotenv": "^18.0.7",
