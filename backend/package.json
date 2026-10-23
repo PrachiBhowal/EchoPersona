@@ -17,7 +17,8 @@
     "import-manual": "node src/importManual.js",
     "embed-test": "node src/embedTest.js",
     "embed-all": "node src/embedAll.js",
-    "search": "node src/search.js"
+    "search": "node src/search.js",
+    "prompt": "node src/promptTest.js"
   },
   "dependencies": {
     "@huggingface/transformers": "^4.3.1",
